@@ -196,9 +196,6 @@ class Celular {
 - campoModelo, campoCor, campoAno, campoArmazenamento, campoSistema:
   Campos de texto para o usuário digitar informações sobre o celular.
 
-- JButton criarBotao(String texto):
-  Cria um botão com cor suave e borda arredondada.
-
 🎯 AÇÕES (métodos):
 - cadastrarCelular():
   Cria um objeto Celular com os dados digitados e mostra mensagem de sucesso.
@@ -217,25 +214,6 @@ class Celular {
 
 - reiniciarCelular():
   Simula reiniciar o celular.
-
-🖼️ INTERFACE:
-- Emojis foram adicionados para dar mais vida aos botões e mensagens:
-  📱 celular
-  🎨 cor
-  📅 ano
-  💾 armazenamento
-  ⚙️ sistema
-  ⬇️ instalar app
-  📞 ligação
-  📷 foto
-  🔄 reiniciar
-  ✅ sucesso
-  ⚠️ alerta
-  ❌ sair
-
-🚀 Para executar:
-- Compile o código e execute a classe principal (CelularGUI).
-- Digite os dados, cadastre o celular e use os botões para simular ações.
 
 ============================================================
 */
