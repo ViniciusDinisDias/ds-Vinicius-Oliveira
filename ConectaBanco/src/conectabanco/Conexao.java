@@ -16,9 +16,9 @@ public class Conexao
 {
     public static void Conectabanco()
     {
-        String url = "jdbc:mysql://localhost:3306/fat";
+        String url = "jdbc:mysql://localhost:3306/bancodados";
         String usuario = "root";
-        String senha = "vncs192515@";
+        String senha = "";
        
         try {
             // Carrega o driver

@@ -16,7 +16,7 @@ import java.sql.PreparedStatement;
 public class Inserir_Dados 
 {
     public static void InserirAluno(String codigo_aluno,String nome_aluno){
-        String url = "jdbc:mysql://localhost:3306/banco";
+        String url = "jdbc:mysql://localhost:3306/bancodados";
         String usuario = "root";
         String senha = "";
         
