@@ -17,7 +17,7 @@ import java.sql.SQLException;
 public class Consulta {
 
     public static void Consultar_Dados() {
-        String url = "jdbc:mysql://localhost:3306/bancodados";
+        String url = "jdbc:mysql://localhost:3306/bancodedados";
         String usuario = "root";  // ou use variáveis: String usuario = ..., senha = ...
         String senha = "";
 
